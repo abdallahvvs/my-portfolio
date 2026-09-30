@@ -12,9 +12,9 @@
       <a class="brand" href="#home">AH / WEB</a>
       <div class="nav-links">
         <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Skills &amp; Projects</a>
+        <a href="contact.html">Contact</a>
       </div>
     </nav>
   </header>
@@ -26,35 +26,13 @@
           <p class="eyebrow">Portfolio of Abdallah Hillary</p>
           <h1>Building ideas into <span>useful websites.</span></h1>
           <p class="hero-copy">I am a passionate web developer with a foundation in both frontend and backend development, turning thoughtful ideas into practical digital experiences.</p>
-          <a class="button" href="#projects">View my projects</a>
+          <a class="button" href="projects.html">View my skills &amp; projects</a>
         </div>
         <aside class="hero-note">
           <img class="profile-photo" src="IMG-20260422-WA0015.jpg" alt="Portrait of Abdallah Hillary" />
           <h2>From short course to full stack</h2>
           <p>Before joining campus, I completed a coding and programming short course that introduced me to the complete journey of building for the web.</p>
         </aside>
-      </div>
-    </section>
-
-    <section id="about">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">A little about me</p>
-          <h2>Curious, practical, and always learning.</h2>
-        </div>
-        <div class="about-layout">
-          <div class="about-mark">Frontend thinking.<br />Backend confidence.<br />One complete perspective.</div>
-          <div class="about-copy">
-            <p>My name is Abdallah Hillary. I am passionate about web development and enjoy the process of taking an idea from a rough concept to a working website.</p>
-            <p>I started my journey by completing a coding and programming short course, where I covered both frontend and backend development. I also built several personal projects before joining campus, giving me practical experience and a strong base to keep growing.</p>
-            <div class="skills" aria-label="Skills">
-              <span class="skill">Frontend development</span>
-              <span class="skill">Backend development</span>
-              <span class="skill">Problem solving</span>
-              <span class="skill">Continuous learning</span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -93,41 +71,11 @@
         </div>
       </div>
     </section>
-
-    <section id="contact">
-      <div class="container contact-layout">
-        <div class="contact-details">
-          <p class="eyebrow">Start a conversation</p>
-          <h2>Have an idea in mind?</h2>
-          <p>Use the form to send a message about a project, collaboration, or opportunity. I would be glad to hear from you.</p>
-        </div>
-        <form id="contact-form">
-          <label for="name">Your name
-            <input id="name" name="name" type="text" placeholder="Enter your name" required />
-          </label>
-          <label for="email">Your email
-            <input id="email" name="email" type="email" placeholder="you@example.com" required />
-          </label>
-          <label for="message">Your message
-            <textarea id="message" name="message" placeholder="Tell me a little about your idea..." required></textarea>
-          </label>
-          <button class="button" type="submit">Send message</button>
-          <p id="form-message" role="status"></p>
-        </form>
-      </div>
-    </section>
   </main>
 
   <footer>
     <div class="container">&copy; 2026 Abdallah Hillary. Built with curiosity and code.</div>
   </footer>
 
-  <script>
-    document.getElementById("contact-form").addEventListener("submit", function (event) {
-      event.preventDefault();
-      document.getElementById("form-message").textContent = "Thank you. Your message is ready to be followed up.";
-      this.reset();
-    });
-  </script>
 </body>
 </html>
